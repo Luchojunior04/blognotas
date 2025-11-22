@@ -32,10 +32,14 @@ button{
     border-radius: 15px;
     border: none;
     background-color: orange;
+    transition: all 0.9s ease;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 #guardar{
     background-color: blue;
+    transition: all 0.9s ease;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 textarea{
@@ -45,4 +49,14 @@ textarea{
     max-width: 800px;
     outline: none;
     padding: 10px 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: rgb(111, 145, 61);
+}
+
+#guardar:hover{
+    background-color: rgb(9, 48, 105);
 }
